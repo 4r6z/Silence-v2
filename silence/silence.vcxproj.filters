@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Features">
+      <UniqueIdentifier>{d41ff757-7289-4065-a5ff-cfd48525117b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\ESP">
+      <UniqueIdentifier>{6ccdb3a2-8c12-48d0-bf5d-ef89347f158c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Aimbot">
+      <UniqueIdentifier>{32213eea-ff2e-470d-9df8-472648bf70d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{ca8b1e5a-e7e4-4275-b1c8-836eee46e764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\GlobalVars">
+      <UniqueIdentifier>{e3775d5b-002e-4f03-a158-12a529f0ae15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Configurations">
+      <UniqueIdentifier>{415744b8-5e5e-4874-b604-7c76aa7f5b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Overlay">
+      <UniqueIdentifier>{2a5e94a4-b268-486a-82cc-bee8a9217948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Initializing">
+      <UniqueIdentifier>{07dd3159-0edd-4a81-b4e7-dd1e4d573838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Initializing\Offsets">
+      <UniqueIdentifier>{50360c07-d1e5-4a5e-ae37-23082a43e98d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Initializing\Classes">
+      <UniqueIdentifier>{999db512-a708-4cc1-9023-d628a3274b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{7915a7f7-2b38-408f-9fd9-ed94e4dd6e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Implementation">
+      <UniqueIdentifier>{5b271e80-6d22-4655-9a54-9c507fb7ac61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\DriverImage">
+      <UniqueIdentifier>{cf1b0e8b-903e-49bf-88ff-8869547c70e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\KernelCtx">
+      <UniqueIdentifier>{36b28323-8fc0-4665-bb86-6aedd404ea19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Physmeme">
+      <UniqueIdentifier>{ca7cf744-7272-47f9-b165-55704cc8ae1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver\Util">
+      <UniqueIdentifier>{e67d7486-777c-4139-b542-b19bdd81c431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Exploits">
+      <UniqueIdentifier>{57e64e01-72e9-409c-b90d-49f7c43b55b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{13a18763-05bd-4e5c-8316-685cd2255dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Includes">
+      <UniqueIdentifier>{5fe0443e-8d6e-4f63-8f11-7b1cb5278c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Includes\ImGui">
+      <UniqueIdentifier>{6524b206-0a30-48d6-9c85-95b0d74fe064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Includes\Backends">
+      <UniqueIdentifier>{a9930e67-cfd4-4f58-b185-f81a82279aac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Framework">
+      <UniqueIdentifier>{8aa6b308-56dd-4169-82ee-506f114c8f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Trigger">
+      <UniqueIdentifier>{ad85c632-16d5-4b27-a72c-8e51206a9d97}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui_freetype.h">
+      <Filter>Resources\Includes\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.hpp">
+      <Filter>Features\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.hpp">
+      <Filter>Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes.hpp">
+      <Filter>Initializing\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.hpp">
+      <Filter>Initializing\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay.hpp">
+      <Filter>Utilities\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVars.hpp">
+      <Filter>Utilities\GlobalVars</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\XorStr.hpp">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverImage.h">
+      <Filter>Driver\DriverImage</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverImplementation.hpp">
+      <Filter>Driver\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelCtx.h">
+      <Filter>Driver\KernelCtx</Filter>
+    </ClInclude>
+    <ClInclude Include="Physmeme.hpp">
+      <Filter>Driver\Physmeme</Filter>
+    </ClInclude>
+    <ClInclude Include="Nt.hpp">
+      <Filter>Driver\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.hpp">
+      <Filter>Driver\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverData.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Loadup.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="RawDriver.hpp">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.hpp">
+      <Filter>Driver\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\animator.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\attachment.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\button.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\checkbox.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\child.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\colorpicker.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\combo.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\config.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\divider.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\element.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\framework.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\group.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\icons.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\includes.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\inputtext.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\keybind.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\label.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\listbox.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\progress.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\shadow.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\slider.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\tab.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\toggle.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\window.h">
+      <Filter>Resources\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\json.hpp">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Configurations.hpp">
+      <Filter>Utilities\Configurations</Filter>
+    </ClInclude>
+    <ClInclude Include="Exploits.hpp">
+      <Filter>Features\Exploits</Filter>
+    </ClInclude>
+    <ClInclude Include="s_auth\Sentinal.h" />
+    <ClInclude Include="s_auth\skCrypter.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="Triggerbot.hpp">
+      <Filter>Features\Trigger</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Includes\imgui\imgui.cpp">
+      <Filter>Resources\Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\imgui\imgui_demo.cpp">
+      <Filter>Resources\Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\imgui\imgui_draw.cpp">
+      <Filter>Resources\Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_freetype.cpp">
+      <Filter>Resources\Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\imgui\imgui_tables.cpp">
+      <Filter>Resources\Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\imgui\imgui_widgets.cpp">
+      <Filter>Resources\Includes\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\backends\imgui_impl_dx11.cpp">
+      <Filter>Resources\Includes\Backends</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\backends\imgui_impl_win32.cpp">
+      <Filter>Resources\Includes\Backends</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Features\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Features\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay.cpp">
+      <Filter>Utilities\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Initialize.cpp">
+      <Filter>Initializing</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVars.cpp">
+      <Filter>Utilities\GlobalVars</Filter>
+    </ClCompile>
+    <ClCompile Include="DriverImage.cpp">
+      <Filter>Driver\DriverImage</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelCtx.cpp">
+      <Filter>Driver\KernelCtx</Filter>
+    </ClCompile>
+    <ClCompile Include="Configurations.cpp">
+      <Filter>Utilities\Configurations</Filter>
+    </ClCompile>
+    <ClCompile Include="Exploits.cpp">
+      <Filter>Features\Exploits</Filter>
+    </ClCompile>
+    <ClCompile Include="Triggerbot.cpp">
+      <Filter>Features\Trigger</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="silence.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Downloads\230x0w.ico" />
+  </ItemGroup>
+</Project>
